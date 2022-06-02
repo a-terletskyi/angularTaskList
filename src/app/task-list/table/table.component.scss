@@ -1,0 +1,46 @@
+.table {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+
+    &-head {
+        &__tr {
+            border-top: solid 1px #dddddd;
+            border-bottom: solid 2.5px #dddddd;
+        }
+
+        &__th {
+            padding: 16px 0;
+        }
+    }
+
+    &-body {
+        td {
+            padding: 10px;
+            border-top: solid 1px #dddddd;
+        }
+
+        .edit, .delete {
+            padding: 9px 10px;
+            border: solid 1px #dddddd;
+        }
+
+        .edit {
+            background-color: #ffc626;
+        }
+
+        .edit:hover {
+            background-color: #e0ae22;
+        }
+
+        .delete {
+            color: #ffffff;
+            background-color: rgb(213 61 61);
+        }
+
+        .delete:hover {
+            background-color: rgb(177, 49, 49);
+        }
+    }
+}
