@@ -30,7 +30,3 @@ export class TaskListComponent implements OnInit {
   }
 
 }
-
-// Plan
-// Добавити паралельно клас для Done - green, In progress - red
-// Застилізувати кнопки в таблиці
